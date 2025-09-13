@@ -24,6 +24,7 @@ jobs:
           key: mkdocs-terminal-${{ env.cache_id }}
           path: .cache 
           restore-keys: |
-            mkdocs-material-
+            mkdocs-terminal-
+      - run: pip install mkdocs
       - run: pip install mkdocs-terminal
       - run: mkdocs gh-deploy --force
