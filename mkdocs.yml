@@ -33,5 +33,5 @@ theme:
       # - style.links.underline.hide
 
 nav:
-  - audios: 'audio.md'
+  - audios: 'audio'
   - screens: 'screenshots.md'
