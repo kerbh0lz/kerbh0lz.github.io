@@ -1,4 +1,4 @@
-name: "Deploy mkdocs to gh-pages"
+name: "Build mkdocs"
 on:
   push:
     paths: ['mkdocs.yml']
@@ -27,4 +27,4 @@ jobs:
             mkdocs-terminal-
       - run: pip install mkdocs
       - run: pip install mkdocs-terminal
-      - run: mkdocs build
+      - run: mkdocs gh-deploy --force
