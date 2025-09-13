@@ -1,4 +1,4 @@
-name: "Build mkdocs"
+name: "Deploy mkdocs to gh-pages"
 on:
   push:
     paths: ['mkdocs.yml']
