@@ -27,4 +27,4 @@ jobs:
             mkdocs-terminal-
       - run: pip install mkdocs
       - run: pip install mkdocs-terminal
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build
